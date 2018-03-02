@@ -1,3 +1,9 @@
+<?php 
+$title = "Title";
+$description = "";
+$nav = "home";
+?>
+
 <?php include 'assets/templates/project-name/modx/chunks/head.php'; ?>
 
     </head>
@@ -22,5 +28,4 @@
 <?php include 'assets/templates/project-name/modx/chunks/analytics.php'; ?>
         
     </body>
-    
 </html>

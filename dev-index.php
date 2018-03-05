@@ -4,15 +4,15 @@ $description = "";
 $nav = "home";
 ?>
 
-<?php include 'assets/templates/project-name/modx/chunks/head.php'; ?>
+<?php include 'assets/templates/head.php'; ?>
 
     </head>
     
     <body>
     
-<?php include 'assets/templates/project-name/modx/chunks/browser_warning.php'; ?>
+<?php include 'assets/templates/browser_warning.php'; ?>
 
-<?php include 'assets/templates/project-name/modx/chunks/header.php'; ?>
+<?php include 'assets/templates/header.php'; ?>
 
 	<div role="main" class="container">
 
@@ -21,11 +21,11 @@ $nav = "home";
         
 	</div><!-- .container -->
 	
-<?php include 'assets/templates/project-name/modx/chunks/footer.php'; ?>
+<?php include 'assets/templates/footer.php'; ?>
 
-<?php include 'assets/templates/project-name/modx/chunks/footer_js.php'; ?>
+<?php include 'assets/templates/footer_js.php'; ?>
 
-<?php include 'assets/templates/project-name/modx/chunks/analytics.php'; ?>
+<?php include 'assets/templates/analytics.php'; ?>
         
     </body>
 </html>

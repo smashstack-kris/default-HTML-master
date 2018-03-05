@@ -4,15 +4,15 @@ $description = "";
 $nav = "home";
 ?>
 
-<?php include 'assets/templates/head.php'; ?>
+<?php include 'assets/templates/chunks/head.php'; ?>
 
     </head>
     
     <body>
     
-<?php include 'assets/templates/browser_warning.php'; ?>
+<?php include 'assets/templates/chunks/browser_warning.php'; ?>
 
-<?php include 'assets/templates/header.php'; ?>
+<?php include 'assets/templates/chunks/header.php'; ?>
 
 	<div role="main" class="container">
 
@@ -21,11 +21,11 @@ $nav = "home";
         
 	</div><!-- .container -->
 	
-<?php include 'assets/templates/footer.php'; ?>
+<?php include 'assets/templates/chunks/footer.php'; ?>
 
-<?php include 'assets/templates/footer_js.php'; ?>
+<?php include 'assets/templates/chunks/footer_js.php'; ?>
 
-<?php include 'assets/templates/analytics.php'; ?>
+<?php include 'assets/templates/chunks/analytics.php'; ?>
         
     </body>
 </html>
